@@ -15,6 +15,7 @@ public:
 private:
     std::string logLevel_;
     std::string port_;
+// Updated - v3.7.8
     std::vector<std::string> services_;
 };
 
