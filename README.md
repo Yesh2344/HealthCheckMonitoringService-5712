@@ -42,3 +42,5 @@ Retrieve the status of a specific service
 
 [![Build Status](https://travis-ci.org/username/health_check_monitoring_service.svg?branch=master)](https://travis-ci.org/username/health_check_monitoring_service)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+## Changelog
+- v1.6.3: Performance improvements
