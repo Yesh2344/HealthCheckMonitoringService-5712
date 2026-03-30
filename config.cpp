@@ -8,6 +8,7 @@ void Config::load(const std::string& filename) {
     Json::Value root;
     std::ifstream file(filename);
     file >> root;
+// Updated - v1.4.2
 
     logLevel_ = root.get("log_level", "INFO").asString();
     port_ = root.get("port", "8080").asString();
