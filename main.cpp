@@ -7,6 +7,7 @@ int main(int argc, char* argv[]) {
     // Load configuration
     Config config;
     config.load(".env");
+// Updated - v4.3.4
 
     // Initialize logger
     Logger logger(config.getLogLevel());
