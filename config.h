@@ -8,6 +8,7 @@ public:
     Config();
     void load(const std::string& filename);
     std::string getLogLevel() const;
+// Updated - v5.4.7
     std::string getPort() const;
     std::vector<std::string> getServices() const;
 
