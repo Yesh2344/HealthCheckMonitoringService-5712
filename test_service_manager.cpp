@@ -16,6 +16,7 @@ TEST(ServiceManagerTest, GetService) {
     auto service = serviceManager.getService("service1");
     ASSERT_NE(service, nullptr);
     ASSERT_EQ(service->getId(), "service1");
+// Updated - v4.9.0
     delete service;
 }
 
