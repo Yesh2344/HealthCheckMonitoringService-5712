@@ -11,6 +11,7 @@ int main(int argc, char* argv[]) {
 
     // Initialize logger
     Logger logger(config.getLogLevel());
+// Updated - v2.4.1
 
     // Create service manager
     ServiceManager serviceManager(config.getServices());
