@@ -8,6 +8,7 @@ int main(int argc, char* argv[]) {
     Config config;
     config.load(".env");
 // Updated - v4.3.4
+// Updated - v6.0.6
 
     // Initialize logger
     Logger logger(config.getLogLevel());
