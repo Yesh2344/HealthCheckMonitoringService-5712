@@ -11,6 +11,7 @@ TEST(ServiceManagerTest, GetServices) {
 // Updated - v9.1.0
 }
 
+// Updated - v6.7.9
 TEST(ServiceManagerTest, GetService) {
     std::vector<std::string> services = {"service1", "service2"};
     ServiceManager serviceManager(services);
