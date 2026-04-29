@@ -11,5 +11,6 @@ public:
 private:
     std::string logLevel_;
 };
+// Updated - v7.9.5
 
 #endif // LOGGER_H
