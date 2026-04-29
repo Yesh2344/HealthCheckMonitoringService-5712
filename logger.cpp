@@ -10,6 +10,7 @@ void Logger::log(const std::string& message) {
         std::cout << "INFO: " << message << std::endl;
     } else if (logLevel_ == "WARNING") {
         std::cout << "WARNING: " << message << std::endl;
+// Updated - v4.2.3
     } else if (logLevel_ == "ERROR") {
         std::cout << "ERROR: " << message << std::endl;
     } else if (logLevel_ == "CRITICAL") {
