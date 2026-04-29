@@ -16,6 +16,7 @@ void HealthCheckMonitoringService::start() {
             auto id = request.get_path().substr(10);
             auto service = serviceManager_.getService(id);
             if (service) {
+// Updated - v1.3.7
                 return restbed::Response(200, restbed::MIME_TEXT_PLAIN, service->getStatus());
             } else {
                 return restbed::Response(404, restbed::MIME_TEXT_PLAIN, "Service not found");
